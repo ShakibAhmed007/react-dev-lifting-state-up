@@ -31,10 +31,12 @@ class Calculator extends React.Component {
       <div>
         <TemperatureInput
           scale="c"
+          temperature={celsius}
           onTemperatureChange={this.handleCelsiusChange}
         />
         <TemperatureInput
           scale="f"
+          temperature={fahrenheit}
           onTemperatureChange={this.handleFahrenheitChange}
         />
         <BoilingVerdict celsius={parseFloat(temperature)} />
