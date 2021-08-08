@@ -4,7 +4,8 @@ import TemperatureInput from './TemparatureInput';
 
 class Calculator extends React.Component {
   state = {
-    temperature: ''
+    temperature: '',
+    scale: 'c'
   };
 
   handleCelsiusChange(temperature) {
