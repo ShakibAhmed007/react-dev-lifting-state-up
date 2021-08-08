@@ -5,8 +5,7 @@ import Calculator from './Component/Calculator';
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <h1>Lifting State Up !!!</h1>
       <Calculator />
     </div>
   );
