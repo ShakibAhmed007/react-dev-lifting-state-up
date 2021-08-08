@@ -1,4 +1,3 @@
-import BoilingVerdict from './BoilingVerdict';
 import React from 'react';
 
 const scaleNames = {
@@ -13,7 +12,7 @@ class TemperatureInput extends React.Component {
   }
 
   handleChange = e => {
-    this.props.handleChange(e.target.value);
+    this.props.onTemperatureChange(e.target.value);
   };
 
   render() {
